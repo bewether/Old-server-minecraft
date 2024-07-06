@@ -9,6 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <link rel="shortcut icon" href="https://i.imgur.com/3hAzY8Z.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
   .fakeimg {
       height: 200px;
@@ -32,7 +33,21 @@
   </style>
 </head>
 <body>
-<div id="carouselFadeExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+<nav class="navbar fixed-top navbar-expand-sm navbar-light " style="border-bottom: 5px solid #0d9900; background-color: #fff;">
+  <a class="navbar-brand "href="index.html"><img  style="width:32px;"src="https://i.imgur.com/f71bO68.png" alt="Olds-Minecraft"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Главная</a>
+      </li>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<div id="carouselFadeExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" style="margin-top: 60px;">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <img style="object-fit: cover; width: 100%; height: 300px;  text-align: center;" class="d-block w-100" src="https://i.imgur.com/EyupEmR.png" data-src="holder.js/900x400?theme=social" alt="First slide">
@@ -45,21 +60,6 @@
     </div>
   </div>
 </div>
-
-<nav class="navbar  navbar-expand-sm navbar-light" style="border-bottom: 5px solid #0d9900;">
-  <a class="navbar-brand "href="index.html"><img  style="width:32px;"src="https://i.imgur.com/f71bO68.png" alt="Olds-Minecraft"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Главная</a>
-      </li>
-      </li>    
-    </ul>
-  </div>  
-</nav>
 <div class="container-fluid" style="margin-top:30px">
   <div class="row" style="justify-content: center;">
     <div class="col-bg-8 text-center">
@@ -73,16 +73,16 @@
       <p>*Эти ссылки предназначены для игры на нашем сервере:</p>
       <ul class="nav justify-content-center" style="gap: 10px;">
         <li class="nav-item">
-          <a href="https://github.com/bewether/Old-server-minecraft/raw/main/Mods.zip" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Моды</a>
+          <a href="https://github.com/bewether/Old-server-minecraft/raw/main/Mods.zip" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"><i class="fa fa-cog" aria-hidden="true"></i> Моды</a>
         </li>
         <li class="nav-item">
-          <a href="https://github.com/bewether/Old-server-minecraft/raw/main/Nature-X-1.21.zip" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Текстуры</a>
+          <a href="https://github.com/bewether/Old-server-minecraft/raw/main/Nature-X-1.21.zip" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"><i class="fa fa-paint-brush" aria-hidden="true"></i> Текстуры</a>
         </li>
         <li class="nav-item">
-          <a href="https://github.com/bewether/Old-server-minecraft/raw/main/BSL_v8.2.09.zip" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Шейдеры</a>
+          <a href="https://github.com/bewether/Old-server-minecraft/raw/main/BSL_v8.2.09.zip" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"><i class="fa fa-picture-o" aria-hidden="true"></i> Шейдеры</a>
         </li>
         <li class="nav-item">
-          <a class="btn btn-primary btn-lg active"  role="button" aria-pressed="true" href="https://llaun.ch/installer">Маинкрафт</a>
+          <a class="btn btn-primary btn-lg active"  role="button" aria-pressed="true" href="https://llaun.ch/installer"><i class="fa fa-gamepad" aria-hidden="true"></i> Маинкрафт</a>
         </li>
       </ul>
       <hr class="d-sm-none">
@@ -110,7 +110,7 @@
   <p>*Время ответа может достигать больше 24 часов</p>
   <p class="lead">
     <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"> <i class="fa fa-pencil" aria-hidden="true"></i>
   Написать
 </button>
 
