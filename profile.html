@@ -45,6 +45,28 @@ a img:hover {
     -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
+.container-fluid{
+  position: relative; 
+  top: -200px; 
+  z-index: 10; 
+  background-color: #fff; 
+  border-radius: 30px; 
+  max-width: 35%; 
+  padding: 20px;
+}
+.card-img-top{
+  width: 300px; 
+  border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+    .container-fluid{ 
+      max-width: 90%;
+    }
+    .card-img-top{
+      object-fit: cover;
+      width: 150px;
+    }
+}
   </style>
 </head>
 <body>
@@ -69,7 +91,7 @@ a img:hover {
   </div>
   </div>
 </div>
-<div class="container-fluid shadows" style="position: relative; top: -200px; z-index: 10; background-color: #fff; border-radius: 30px; max-width: 35%; padding: 20px; ">
+<div class="container-fluid shadows">
   <div class="row " style="justify-content: center;">
     <div class="col-bg-8 text-center">
       <h2>Санстрайк на киев</h2>
@@ -93,22 +115,22 @@ a img:hover {
       <div class="row" style="justify-content: center; gap: 10px; padding-top: 20px;">
       <div class="card shadows">
         <a href="https://steamcommunity.com/id/doobryak/">
-          <img class="card-img-top" src="https://runews24.ru/assets/components/phpthumbof/cache/57f1d5dae3d4beb187cb1d1ef478f30e.6a856ca6cd9ae14d34cf1b572b5935db.jpg" alt="Card image cap" style="width: 300px; border-radius: 5px; " >
+          <img class="card-img-top" src="https://runews24.ru/assets/components/phpthumbof/cache/57f1d5dae3d4beb187cb1d1ef478f30e.6a856ca6cd9ae14d34cf1b572b5935db.jpg" alt="Card image cap">
         </a>
       </div>
       <div class="card shadows">
         <a href="https://discord.gg/29dtWscENX">
-          <img class="card-img-top" src="https://a.d-cd.net/zwXqy9JpuyTyCDu-_XLPSvfPE8w-1920.jpg" alt="Card image cap" style="width: 300px; border-radius: 5px;" >
+          <img class="card-img-top" src="https://a.d-cd.net/zwXqy9JpuyTyCDu-_XLPSvfPE8w-1920.jpg" alt="Card image cap">
         </a>
       </div>
       <div class="card shadows">
         <a href="https://animego.org/user/Doobryak">
-          <img class="card-img-top" src="source/a.png" alt="Card image cap" style="width: 300px; border-radius: 5px;" >
+          <img class="card-img-top" src="source/a.png" alt="Card image cap">
         </a>
       </div>
       <div class="card shadows">
         <a href="https://github.com/bewether">
-          <img class="card-img-top" src="https://i.pinimg.com/originals/f0/4e/cb/f04ecbdcc4226ebaf73d9e933bc75913.jpg" alt="Card image cap" style="width: 300px; border-radius: 5px;" >
+          <img class="card-img-top" src="https://i.pinimg.com/originals/f0/4e/cb/f04ecbdcc4226ebaf73d9e933bc75913.jpg" alt="Card image cap">
         </a>
       </div>
     </div>
