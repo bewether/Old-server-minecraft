@@ -30,6 +30,15 @@
     background-color: #075700;
     border-color: #0d9900;
 }
+.mb-0 a{
+  color: #0d9900;
+}
+.accordion{
+  margin-top: 20px;
+}
+.accordion .card:last-of-type{
+  border-radius: 5px;
+}
   </style>
 </head>
 <body>
@@ -86,20 +95,56 @@
         </li>
       </ul>
       <hr class="d-sm-none">
+      <div id="accordion" class="accordion" role="tablist">
+        <div class="card">
+          <div class="card-header" role="tab" id="headingOne">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Обновления
+              </a>
+            </h5>
+          </div>
+          <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th>№</th>
+                  <th>Название</th>
+                  <th>Описание</th>
+                  <th>Дата</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Моды</td>
+                  <td>Добавлен мод на голосовой чат</td>
+                  <td>13.07.2024</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Текстуры</td>
+                  <td>Добавлены текстуры на траву</td>
+                  <td>13.07.2024</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Шейдеры</td>
+                  <td>Добавлен BSL шейдер</td>
+                  <td>13.07.2024</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Маинкрафт</td>
+                  <td>Добавлена последняя версия маинкрафта 1.21 Fabric</td>
+                  <td>13.07.2024</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
-    <!--<div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div> </li>-->
   </div>
 </div>
 <p> </p>
